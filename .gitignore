@@ -16,3 +16,23 @@ MOT17*/
 # CVAT local lab preparation
 .lab-local/
 .venv/
+
+# Cam file anh va du lieu khong duoc phep commit
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.zip
+
+# Chi cho phep 3 anh minh chung
+!report/
+!report/individual/
+!report/individual/che_1_truoc.png
+!report/individual/che_2_giua.png
+!report/individual/che_3_sau.png
+
+# Vi tri 3 anh minh chung thuc te
+!report/individual/images/
+!report/individual/images/che_1_truoc.png
+!report/individual/images/che_2_giua.png
+!report/individual/images/che_3_sau.png
